@@ -35,8 +35,13 @@ a {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    height: 60px;
+    height: 80px;
     padding: 20px 0px;
+}
+
+.nav-logo {
+    
+    display: flex;
 }
 
 .nav-brand {
@@ -95,8 +100,10 @@ a {
 .grid {
     display: grid;
     grid-template-columns: auto auto auto;
-    padding: 40px;
+    padding: 0px;
+    grid-gap: 25px;
 }
+
 
 .grid-item {
     background-color: rgba(230, 230, 230, 0.9);
@@ -105,6 +112,16 @@ a {
     text-align: center;
     font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
+
+.grid-item:hover {
+    
+    background-color: rgb(255, 255, 255);
+    transition: background-color 0.5s ;
+
+}
+
+
+
 .grid-item ul {
     display:list-item;
     list-style-type: none;
@@ -120,4 +137,15 @@ a {
 
 #corners-img {
     border-radius: 25px;
+}
+
+.medium {
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.space {
+    width: 50px;
 }
