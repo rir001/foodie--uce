@@ -1,0 +1,45 @@
+.foot {
+    padding: 50px 0px;
+    display: grid;
+    grid-template-columns: 1fr 3fr 1fr;
+}
+
+.foot ul {
+    list-style-type: none;
+    text-align: center;
+}
+
+.foot ul li {
+    padding: 10px 0px;
+}
+
+.foot-header {
+    font-size: 20px;
+}
+
+.foot-contact {
+    font-size: 20px;
+
+    align-items: center;
+    justify-content:space-evenly;
+
+    display: flex;
+}
+
+.foot-info {    
+    list-style-type: none;
+    display: flex;
+    align-items: center;
+    text-align: center;
+
+}
+
+.foot-info img {
+    width: 40px;
+    padding: 10%;
+}
+
+#foot {
+    position: absolute;
+    bottom: 0;
+}
