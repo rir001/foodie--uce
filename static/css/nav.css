@@ -34,10 +34,8 @@
     display: flex;
     align-items: flex-end;
 
-    padding: 0% 5% 0% 0%;
 }
 
 .nav-menu li {
     border: 10%;
-    padding: 0% 0% 0% 3%;
 }

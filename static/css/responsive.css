@@ -8,19 +8,23 @@
 @media only screen and (min-width: 450px) {
 /* For tablets: */
 .col-s-0 {width: 2%;}
-.col-s-1 {width: 20%;}
-.col-s-2 {width: 30%;}
-.col-s-3 {width: 60%;} 
-.col-s-4 {width: 70%;}
-.col-s-5 {width: 100%;}
+.col-s-1 {width: 15%;}
+.col-s-2 {width: 20%;}
+.col-s-3 {width: 30%;}
+.col-s-4 {width: 60%;} 
+.col-s-5 {width: 70%;}
+.col-s-6 {width: 96%;}
+.col-s-7 {width: 100%;}
 }
 
 @media only screen and (min-width: 750px) {
 /* For desktop: */
 .col-0 {width: 2%;}
-.col-1 {width: 20%;}
-.col-2 {width: 30%;}
-.col-3 {width: 60%;} 
-.col-4 {width: 70%;}
-.col-5 {width: 100%;}
+.col-1 {width: 15%;}
+.col-2 {width: 20%;}
+.col-3 {width: 30%;}
+.col-4 {width: 60%;} 
+.col-5 {width: 70%;}
+.col-6 {width: 96%;}
+.col-7 {width: 100%;}
 }  
