@@ -1,0 +1,25 @@
+@media (prefers-color-scheme: dark) {
+    :root {
+        --header: rgb(0, 0, 0);
+        --text: rgb(211, 208, 208);
+        --back: rgb(8, 8, 8);
+
+        --rojo: rgba(0, 255, 0, 0);
+        --verde: rgba(0, 0, 255, 0);
+    }
+
+}
+
+@media (prefers-color-scheme: light) {
+    :root {
+        --header: rgba(255, 255, 255, 0.5);
+        --text: rgb(20, 20, 20);
+        --back: linear-gradient(217deg, rgb(162, 249, 157), rgba(255,0,0,0) 70%),
+                linear-gradient(127deg, rgb(132, 234, 243), rgba(0,255,0,0) 70%),
+                linear-gradient(336deg, rgb(247, 145, 218), rgba(0,0,255,0) 70%);
+
+        --rojo: rgba(255, 0, 0, 0);
+        --verde: rgba(0, 255, 0, 0);
+    }
+
+}
