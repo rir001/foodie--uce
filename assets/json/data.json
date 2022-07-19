@@ -1,0 +1,81 @@
+const tiendas =
+{
+    "Tienda":
+    {
+        "Descripcion": "a",
+        "Contacto":
+        {
+            "Instagram": "@",
+            "Numero": "+56 9 xxxx xxxx"
+        },
+        "Horario":
+        {
+            "L":
+            [
+                "Almuerzo",
+                "C001",
+                "C001",
+                "C001",
+                "C001",
+                "C001",
+                "C001",
+                "C001",
+                "C001",
+            ],
+            "M":
+            [
+                "Almuerzo",
+                "C001",
+                "C001",
+                "C001",
+                "C001",
+                "C001",
+                "C001",
+                "C001",
+                "C001",
+            ],
+            "W":
+            [
+                "Almuerzo",
+                "C001",
+                "C001",
+                "C001",
+                "C001",
+                "C001",
+                "C001",
+                "C001",
+                "C001",
+            ],
+            "J":
+            [
+                "Almuerzo",
+                "C001",
+                "C001",
+                "C001",
+                "C001",
+                "C001",
+                "C001",
+                "C001",
+                "C001",
+            ],
+            "V":
+            [
+                "Almuerzo",
+                "C001",
+                "C001",
+                "C001",
+                "C001",
+                "C001",
+                "C001",
+                "C001",
+                "C001",
+            ],
+        },
+        "Productos":
+        {
+            "N1": "Descripcion",
+            "N2": "Descripcion",
+            "N3": "Descripcion",
+        }
+    }
+}

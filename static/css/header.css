@@ -1,0 +1,49 @@
+.header
+{
+    background-color: var(--main);
+    height: 80px;
+
+    position: fixed;
+    top: 0;
+    left: 0;
+
+    width: 100%;
+
+    display: flex;
+    justify-content: center;
+}
+
+.header_content
+{
+    width: 80%;
+
+    display: flex;
+    flex-wrap: wrap;
+
+    justify-content: space-between;
+    align-items: center;
+
+    font-size: 25px;
+}
+
+.logo
+{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+}
+
+#logo
+{
+    display: flex;
+    justify-content: center;
+    width: 40px;
+    font-size: 35px;
+    margin: 5px;
+}
+
+.header_content nav a
+{
+    font-size: 20px;
+    margin: 5px;
+}
