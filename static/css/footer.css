@@ -50,3 +50,24 @@ footer
     color: var(--text);
     margin: 5px;
 }
+
+#instagram
+{
+    transition-duration: 0.2s;
+}
+
+#instagram:hover
+{
+    color: var(--instagram);
+}
+
+
+#github
+{
+    transition-duration: 0.2s;
+}
+
+#github:hover
+{
+    color: var(--github);
+}

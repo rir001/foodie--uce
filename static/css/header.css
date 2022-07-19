@@ -39,11 +39,28 @@
     justify-content: center;
     width: 40px;
     font-size: 35px;
-    margin: 5px;
+    margin: 10px;
 }
 
 .header_content nav a
 {
     font-size: 20px;
-    margin: 5px;
+    padding: 10px;
+    transition-duration: 0.3s;
+    border-radius: 15px;
+}
+
+.header_content nav a:hover
+{
+    background-color: var(--hover);
+}
+
+#logo
+{
+    transition-duration: 0.2s;
+}
+
+#logo:hover
+{
+    font-size: 40px;
 }

@@ -24,3 +24,9 @@ function logo()
 
     document.getElementById("logo").classList = list[Math.floor(Math.random()*list.length)];
 }
+
+function init()
+{
+    logo();
+    load();
+}
