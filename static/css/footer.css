@@ -24,8 +24,9 @@ footer
 #footer_title
 {
     width: 100%;
-    display: flex;
     justify-content: center;
+    align-items: center;
+    text-justify: distribute;
 }
 
 #contact

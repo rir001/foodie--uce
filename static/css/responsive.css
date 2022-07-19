@@ -1,19 +1,56 @@
-@media only screen and (min-width: 500px)
+@media only screen and (max-width: 650px)
 {
+    .header
+    {
+        height: 70px;
+    }
+    .header_content
+    {
+        width: 95%;
+    }
+    #nav_button
+    {
+        display: none;
+    }
+    #list
+    {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
 
 }
 
-@media only screen and (min-width: 800px)
+@media only screen and (min-width: 650px)
 {
+    .header
+    {
+        height: 70px;
+    }
+    .header_content
+    {
+        width: 95%;
+    }
+    #nav_button
+    {
+        display: inline;
+    }
+    #list
+    {
+        display: none;
+    }
 
 }
 
 @media only screen and (min-width: 1000px)
 {
-
-}
-
-@media only screen and (min-width: 1280px)
-{
+    .header
+    {
+        height: 80px;
+    }
+    .header_content
+    {
+        width: 80%;
+    }
 
 }

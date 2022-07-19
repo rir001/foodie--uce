@@ -1,7 +1,6 @@
 .header
 {
     background-color: var(--main);
-    height: 80px;
 
     position: fixed;
     top: 0;
@@ -15,8 +14,6 @@
 
 .header_content
 {
-    width: 80%;
-
     display: flex;
     flex-wrap: wrap;
 
@@ -63,4 +60,17 @@
 #logo:hover
 {
     font-size: 40px;
+}
+
+#nav_button
+{
+    display: inline;
+}
+#list
+{
+    display: none;
+    width: 40px;
+    height: 40px;
+    font-size: 30px;
+
 }
