@@ -31,6 +31,7 @@ function menu()
     document.getElementById("cross").style.display = "flex";
     document.getElementById("bar").style.display = "none";
     document.getElementById("header").style.height = "auto";
+    document.getElementById("header").style.backgroundColor = "var(--hover)";
 }
 
 function menunt()
@@ -38,7 +39,8 @@ function menunt()
     document.getElementById("menu").style.display = "none";
     document.getElementById("cross").style.display = "none";
     document.getElementById("bar").style.display = "flex";
-    document.getElementById("header").style.height = "70px";
+    document.getElementById("header").style.height = "100px";
+    document.getElementById("header").style.backgroundColor = "var(--main)";
 }
 
 function init()

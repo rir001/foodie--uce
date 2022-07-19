@@ -1,8 +1,9 @@
-@media only screen and (max-width: 650px)
+@media only screen and (max-width: 800px)
 {
     #header
     {
-        height: 70px;
+        height: 100px;
+        padding-top: 16px;
     }
     .header_content
     {
@@ -17,17 +18,53 @@
         display: flex;
     }
 
+    .logo
+    {
+        font-size: 35px;
+    }
+
+    #logo
+    {
+        width: 45px;
+        height: 45px;
+
+        font-size: 40px;
+    }
+
+    #logo:hover
+    {
+        font-size: 45px;
+
+    }
+
+    #footer_contain
+    {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        width: 450px;
+        font-size: 25px;
+    }
+
+
+
 }
 
-@media only screen and (min-width: 650px)
+@media only screen and (min-width: 800px)
 {
     #header
     {
-        height: 70px;
+        height: 90px;
+        padding-top: 12px;
     }
     .header_content
     {
         width: 95%;
+    }
+    .header_content nav a
+    {
+        font-size: 23px;
     }
     #nav_button
     {
@@ -38,6 +75,24 @@
         display: none;
     }
 
+    .logo
+    {
+        font-size: 32px;
+    }
+
+    #logo
+    {
+        width: 42px;
+        height: 42px;
+
+        font-size: 37px;
+    }
+
+    #logo:hover
+    {
+        font-size: 42px;
+    }
+
 }
 
 @media only screen and (min-width: 1000px)
@@ -45,11 +100,33 @@
     #header
     {
         height: 80px;
-        padding-top: 10px;
+        padding-top: 8px;
     }
     .header_content
     {
         width: 80%;
+    }
+    .header_content nav a
+    {
+        font-size: 20px;
+    }
+
+    .logo
+    {
+        font-size: 30px;
+    }
+
+    #logo
+    {
+        width: 40px;
+        height: 40px;
+
+        font-size: 35px;
+    }
+
+    #logo:hover
+    {
+        font-size: 40px;
     }
 
 }

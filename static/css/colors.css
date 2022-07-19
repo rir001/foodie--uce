@@ -2,9 +2,9 @@
 {
     :root
     {
-        --text: rgb(230, 230, 230);
+        --text: rgb(210, 210, 210);
         --main: rgba(10, 10, 10, 0.5);
-        --hover: rgb(10, 10, 10);
+        --hover: rgba(10, 10, 10, 0.9);
         --back: linear-gradient(217deg, rgb(26, 48, 25), rgba(255,0,0,0) 70%),
                 linear-gradient(127deg, rgb(21, 72, 77), rgba(0,255,0,0) 70%),
                 linear-gradient(336deg, rgb(54, 22, 45), rgba(0,0,255,0) 70%);
@@ -21,7 +21,7 @@
     {
         --text: rgb(0, 0, 0);
         --main: rgba(255, 255, 255, 0.5);
-        --hover: rgb(255, 255, 255);
+        --hover: rgba(255, 255, 255, 0.9);
         --back: linear-gradient(217deg, rgb(162, 249, 157), rgba(255,0,0,0) 70%),
                 linear-gradient(127deg, rgb(132, 234, 243), rgba(0,255,0,0) 70%),
                 linear-gradient(336deg, rgb(247, 145, 218), rgba(0,0,255,0) 70%);

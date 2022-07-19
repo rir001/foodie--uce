@@ -13,6 +13,9 @@
     display: flex;
     flex-direction: column;
     align-items: center;
+
+    transition-duration: 0.2s;
+
 }
 
 .header_content
@@ -37,10 +40,13 @@
 {
     display: flex;
     justify-content: center;
-    width: 40px;
-    font-size: 35px;
+    align-items: center;
+
     margin: 10px;
+    transition-duration: 0.2s;
 }
+
+
 
 .header_content nav a
 {
@@ -55,20 +61,7 @@
     background-color: var(--hover);
 }
 
-#logo
-{
-    transition-duration: 0.2s;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    width: 40px;
-    height: 40px;
-}
 
-#logo:hover
-{
-    font-size: 40px;
-}
 
 #nav_button
 {
@@ -110,6 +103,8 @@
 
     flex-direction: column;
 
+    padding-bottom: 20px;
+
 }
 
 #menu nav a
@@ -117,6 +112,6 @@
     display: flex;
     justify-content: center;
     width: 100%;
-    margin: 5px;
-    font-size: 20px;
+    margin: 10px;
+    font-size: 30px;
 }
