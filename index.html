@@ -40,7 +40,7 @@
 
 <body>
 
-    <diV class = "header">
+    <diV id = "header">
         <div class = "header_content">
 
             <div class = "logo">
@@ -55,10 +55,20 @@
                 <a>Buscar</a>
             </nav>
 
-            <i class="fa-solid fa-bars" id = "list"></i>
+            <i class="fa-solid fa-bars list" id = "bar" onclick="menu()"></i>
+            <i class="fa-solid fa-eject list" id = "cross" onclick="menunt()"></i>
+        </div>
 
+        <div id = "menu">
+            <nav>
+                <a>Mapa</a>
+                <a>Horario</a>
+                <a>Galeria</a>
+                <a>Buscar</a>
+            </nav>
         </div>
     </diV>
+
 
     <div class = "root">
         <div class = "container">

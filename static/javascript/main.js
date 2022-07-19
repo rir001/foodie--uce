@@ -25,6 +25,22 @@ function logo()
     document.getElementById("logo").classList = list[Math.floor(Math.random()*list.length)];
 }
 
+function menu()
+{
+    document.getElementById("menu").style.display = "inline";
+    document.getElementById("cross").style.display = "flex";
+    document.getElementById("bar").style.display = "none";
+    document.getElementById("header").style.height = "auto";
+}
+
+function menunt()
+{
+    document.getElementById("menu").style.display = "none";
+    document.getElementById("cross").style.display = "none";
+    document.getElementById("bar").style.display = "flex";
+    document.getElementById("header").style.height = "70px";
+}
+
 function init()
 {
     logo();

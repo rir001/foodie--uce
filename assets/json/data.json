@@ -1,4 +1,4 @@
-const tiendas =
+var tiendas =
 {
     "Tienda":
     {

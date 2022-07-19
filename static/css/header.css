@@ -1,4 +1,4 @@
-.header
+#header
 {
     background-color: var(--main);
 
@@ -8,8 +8,11 @@
 
     width: 100%;
 
+    padding-top: 5px;
+
     display: flex;
-    justify-content: center;
+    flex-direction: column;
+    align-items: center;
 }
 
 .header_content
@@ -55,6 +58,11 @@
 #logo
 {
     transition-duration: 0.2s;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 40px;
+    height: 40px;
 }
 
 #logo:hover
@@ -66,11 +74,49 @@
 {
     display: inline;
 }
-#list
+
+.list
 {
     display: none;
     width: 40px;
     height: 40px;
     font-size: 30px;
 
+}
+
+#cross
+{
+    display: none;
+    justify-content: center;
+    align-items: center;
+}
+
+#bar
+{
+    display: none;
+    justify-content: center;
+    align-items: center;
+}
+
+#menu
+{
+    width: 100%;
+    display: none;
+}
+
+#menu nav
+{
+    display: flex;
+
+    flex-direction: column;
+
+}
+
+#menu nav a
+{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    margin: 5px;
+    font-size: 20px;
 }
