@@ -1,4 +1,4 @@
-var tiendas =
+let tiendas =
 {
     "Tienda":
     {
@@ -151,7 +151,7 @@ var tiendas =
         },
         "Productos":
         {
-            "papas fritas caceras": "Papas caceras",
+            "papas fritas caseras": "Papas caseras",
         }
     },
     "cabritasUCe":
