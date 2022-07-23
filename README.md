@@ -1,7 +1,3 @@
 # foodieuce
-a
-a
-a
 
-a
-a
+https://foodieuce.cl/
